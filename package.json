@@ -12,6 +12,7 @@
   "private": true,
   "scripts": {
     "build": "ember build",
+    "buildprod": "ember build --environment production",
     "lint:hbs": "ember-template-lint .",
     "start": "ember server",
     "test": "ember test",
@@ -50,7 +51,7 @@
     "ember-qunit": "^4.5.1",
     "ember-resolver": "^5.3.0",
     "loader.js": "^4.7.0",
-    "openapi-model-example": "git://github.com/KevinGlinski/openapi-model-example.git"
+    "openapi-model-example": "https://github.com/KevinGlinski/openapi-model-example.git"
   },
   "dependencies": {
     "ember-chromium": "^4.0.3",
